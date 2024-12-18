@@ -9,6 +9,7 @@ pub struct List{
 
 enum Link{
     Empty,
+    // This<T> is used to specify a generic type
     More(Box<Node>),
 }
 
